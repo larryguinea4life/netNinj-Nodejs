@@ -1,0 +1,13 @@
+NODE.JS & EXPRESS JS
+
+“require” in node.js is like saying import in javascript;
+
+Whatever value that is exported in the module is what the importer (the importing file) will get or have access to. Also the importer doesn’t have to use the same variable or function name as exported from the exporting file
+
+Node -v (to check node version).
+
+Type node and press enter in the terminal or cmd to start writing javascript code in the terminal or cmd
+
+console.log(global); // this global object gets us the properties and global methods available (just like the window object in browsers)
+console.log(__dirname) //this gets us the absolute path of the current folder that our current file is in
+console.log(__filename) //this gets us the absolute path of the current folder INCLUDING the filename as well
